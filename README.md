@@ -7,6 +7,7 @@ apm list --installed --bare > packages.list
 apm install --packages-file packages.list
 
 ### Special snowflakes
-**linter-rubocop** requires ``` gem install rubocop ``` installation
+**linter-rubocop** requires rubocop. Run ``` gem install rubocop ``` command to install.
+**linter-pylint** requires pylint. Run ``` pip install pylint ``` command to install.
 
 **import/export instructions** from _https://discuss.atom.io/t/how-to-backup-all-your-settings/15674_
