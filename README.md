@@ -7,7 +7,7 @@ apm list --installed --bare > packages.list
 apm install --packages-file packages.list
 
 ### Remove ALL packages
-apm remove --packages-file $(apm list --installed --bare | cut -d'@' -f1)
+apm remove $(apm list --installed --bare | cut -d'@' -f1)
 
 ### Special snowflakes
 _Consider run the following commands as ``` sudo ``` if you get permissions issues_
