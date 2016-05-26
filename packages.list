@@ -5,10 +5,12 @@ atom-symfony2@0.2.1
 autoclose-html@0.23.0
 autocomplete@0.47.0
 autocomplete-json@1.10.0
+autocomplete-python@1.7.3
 autocomplete-ruby@0.1.0
 color-picker@2.1.1
 copy-path@0.4.0
 ctags-status@1.3.4
+define-jump@1.0.1
 drupal@1.8.0
 file-icons@1.7.12
 fold-functions@0.4.3
