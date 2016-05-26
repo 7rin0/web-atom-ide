@@ -21,3 +21,5 @@ _Consider run the following commands as ``` sudo ``` if you get permissions issu
 **linter-pep8** requires pep8. Run ``` pip install pep8 ``` command to install.
 
 **import/export instructions** from _https://discuss.atom.io/t/how-to-backup-all-your-settings/15674_
+
+**php-integrator** requires php module sqlite and writing permission to sudo chmod -R 775 ~/.atom/packages/php-integrator-base
