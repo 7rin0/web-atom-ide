@@ -1,7 +1,7 @@
-atom-beautify@0.29.10
+atom-beautify@0.29.11
 emmet@2.4.3
-exception-reporting@0.38.4
-file-icons@1.7.18
+exception-reporting@0.40.0
+file-icons@1.7.19
 git-blame@0.4.11
 git-time-machine@1.5.3
 haskell-grammar@0.4.0
@@ -9,27 +9,28 @@ highlight-column@0.5.1
 highlight-line@0.11.1
 highlight-selected@0.11.2
 js-hyperclick@1.4.2
-language-babel@2.32.2
+language-babel@2.35.0
 language-ini@1.16.0
 language-ocaml@1.1.2
+language-swift@0.4.0
 language-thrift@1.0.2
-linter@1.11.15
+linter@1.11.16
 linter-csslint@1.3.2
 linter-jshint@2.1.0
 linter-phpcs@1.4.0
 linter-scss-lint@3.0.4
 merge-conflicts@1.4.4
-metrics@0.53.1
-nuclide@0.159.0
+metrics@1.0.0
+nuclide@0.165.0
 open-recent@5.0.0
 php-hyperclick@1.0.0
 php-twig@4.0.0
-pigments@0.31.2
+pigments@0.34.0
 sort-lines@0.14.0
 sync-settings@0.7.2
 tabs-to-spaces@1.0.2
 todo-show@1.7.0
-tool-bar@1.0.0
+tool-bar@1.0.1
 trailing-spaces@0.3.2
 
 
