@@ -3,6 +3,7 @@
 ### Download Atom's last release and install/update
 https://github.com/atom/atom/releases/latest
 
+### Import this Atom packages by cli
 - ``git clone https://github.com/7rin0/config-atom``
 - ``cd config-atom``
 - ``apm install --packages-file packages.list``
