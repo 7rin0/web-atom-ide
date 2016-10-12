@@ -1,6 +1,6 @@
-# Atom config
+# Atom - A hackable text editor
 
-# Download Atom's last release and install/update
+### Download Atom's last release and install/update
 https://github.com/atom/atom/releases/latest
 
 ### Import this Atom packages by cli
