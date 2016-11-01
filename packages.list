@@ -1,10 +1,14 @@
+Remote-FTP@0.9.4
+SFTP-deployment@1.0.2
 atom-autocomplete-php@0.19.4
 atom-beautify@0.29.13
+atom-commander@0.8.3
 autocomplete-php@0.3.7
 emmet@2.4.3
 exception-reporting@0.40.0
-file-icons@1.7.23
+file-icons@1.7.24
 git-blame@0.4.11
+git-plus@5.23.2
 git-time-machine@1.5.3
 haskell-grammar@0.4.0
 highlight-column@0.5.1
@@ -12,7 +16,7 @@ highlight-line@0.11.1
 highlight-selected@0.11.2
 hyperclick-php@0.2.1
 js-hyperclick@1.9.0
-language-babel@2.45.0
+language-babel@2.46.0
 language-ini@1.16.0
 language-ocaml@1.1.2
 language-swift@0.4.0
@@ -25,8 +29,9 @@ linter-phpcs@1.5.3
 linter-phpmd@1.5.2
 linter-scss-lint@3.0.4
 merge-conflicts@1.4.4
-metrics@1.0.0
+metrics@1.1.1
 nuclide@0.177.0
+nuclide-format-js@0.0.36
 open-recent@5.0.0
 php-cs-fixer@2.5.9
 php-hyperclick@1.0.1
@@ -37,6 +42,7 @@ sort-lines@0.14.0
 split-diff@1.0.6
 sync-settings@0.7.2
 tabs-to-spaces@1.0.2
+terminal-plus@0.14.5
 todo-show@1.7.0
 tool-bar@1.0.1
 trailing-spaces@0.3.2
