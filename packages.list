@@ -1,15 +1,15 @@
 Remote-FTP@0.10.5
 SFTP-deployment@1.0.2
-atom-autocomplete-php@0.21.0
+atom-autocomplete-php@0.22.0
 atom-beautify@0.29.17
 atom-commander@0.8.6
 autocomplete-php@0.3.7
 emmet@2.4.3
-exception-reporting@0.40.2
+exception-reporting@0.41.0
 file-icons@2.0.15
 git-blame@0.4.11
-git-plus@7.2.0
-git-time-machine@1.5.4
+git-plus@7.2.2
+git-time-machine@1.5.6
 haskell-grammar@0.4.0
 highlight-column@0.5.2
 highlight-line@0.12.0
@@ -23,7 +23,7 @@ language-lua@0.9.11
 language-ocaml@1.1.2
 language-swift@0.5.0
 language-thrift@1.0.2
-linter@1.11.21
+linter@1.11.22
 linter-csslint@1.3.3
 linter-jshint@3.0.2
 linter-php@1.3.1
@@ -32,7 +32,7 @@ linter-phpmd@1.5.2
 linter-scss-lint@3.0.4
 merge-conflicts@1.4.4
 metrics@1.1.3
-nuclide@0.204.0
+nuclide@0.205.0
 nuclide-format-js@0.0.36
 open-recent@5.0.0
 php-cs-fixer@4.1.0
@@ -42,7 +42,7 @@ pigments@0.39.0
 rest-client@1.3.1
 set-syntax@0.3.2
 sort-lines@0.14.0
-split-diff@1.1.1
+split-diff@1.1.2
 sync-settings@0.8.1
 tabs-to-spaces@1.0.3
 terminal-plus@0.14.5
