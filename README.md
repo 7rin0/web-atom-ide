@@ -4,7 +4,7 @@
 https://github.com/atom/atom/releases/latest
 
 ### Import this Atom packages by cli
-- ``git clone https://github.com/7rin0/config-atom``
+- ``git clone https://github.com/waynelai614/config-atom``
 - ``cd config-atom``
 - ``apm install --packages-file packages.list``
 
@@ -13,4 +13,3 @@ https://github.com/atom/atom/releases/latest
 
 ### Remove ALL packages
 ``apm remove $(apm list --installed --bare | cut -d'@' -f1)``
-
