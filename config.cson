@@ -1,0 +1,54 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "e512a5e6-e002-4c79-bef1-3f6308fda315"
+  "atom-material-ui":
+    colors:
+      predefinedColor: "Red"
+    tabs: {}
+    treeView: {}
+    ui: {}
+  core:
+    disabledPackages: [
+      "wrap-guide"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "northem-dark-atom-ui"
+      "northem-dark-atom-syntax"
+    ]
+  editor:
+    invisibles: {}
+  emmet: {}
+  "exception-reporting":
+    userId: "4c1860af-7a21-9ac7-0d1b-2e2fb5cd38ca"
+  "git-plus":
+    general:
+      _analyticsUserId: "618615e0-cd2c-49a3-94e4-a23a8755cab8"
+  "highlight-line": {}
+  linter: {}
+  "linter-eslint":
+    useGlobalEslint: true
+  "markdown-preview": {}
+  minimap: {}
+  "nord-atom-ui":
+    darkerFormFocusEffect: true
+  "northem-dark-atom-ui": {}
+  "one-dark-ui":
+    fontSize: "auto"
+  pigments:
+    groupPaletteColors: "by file"
+    sortPaletteColors: "by name"
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  "terminal-plus":
+    core: {}
+    style: {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
