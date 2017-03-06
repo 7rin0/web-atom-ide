@@ -7,3 +7,6 @@ export:
 ### Remove ALL packages
 remove:
 	apm remove $(apm list --installed --bare | cut -d'@' -f1)
+### Update Atom dependencies
+upgrade:
+	apm upgrade
