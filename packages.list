@@ -4,8 +4,6 @@ SFTP-deployment@1.0.2
 atom-autocomplete-php@0.22.2
 atom-beautify@0.29.23
 atom-commander@0.9.0
-autocomplete-css@0.16.1
-autocomplete-html@0.7.3
 autocomplete-php@0.3.7
 behat-atom@0.1.2
 behat-fr-atom@0.2.1
@@ -14,7 +12,6 @@ color-picker@2.2.5
 drupal@1.9.0
 eclipse-keybindings@0.9.0
 emmet@2.4.3
-exception-reporting@0.41.4
 file-icons@2.1.4
 git-blame@1.0.1
 git-plus@7.7.0
@@ -30,7 +27,6 @@ language-babel@2.57.7
 language-blade@0.29.0
 language-graphql@0.8.0
 language-groovy@0.6.0
-language-html@0.47.2
 language-ini@1.19.0
 language-lua@0.9.11
 language-ocaml@1.8.0
@@ -46,7 +42,6 @@ linter-phpmd@1.5.3
 linter-scss-lint@3.1.0
 linter-ui-default@1.2.3
 merge-conflicts@1.4.4
-metrics@1.2.2
 nuclide@0.217.0
 nuclide-format-js@0.0.36
 open-recent@5.0.0
@@ -71,4 +66,3 @@ todo-show@1.11.0
 tool-bar@1.1.0
 trailing-spaces@0.4.0
 web-accessibility-checker@0.1.4
-
