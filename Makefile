@@ -1,3 +1,6 @@
+### Install Ubuntu / Debian dist
+install:
+	bash debian_ubuntu_install.sh
 ### Import this Atom packages by cli
 import:
 	apm install --packages-file packages.list
