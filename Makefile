@@ -1,12 +1,13 @@
 ### Install Ubuntu / Debian dist
 install:
-	bash atom_debian_ubuntu_install.sh
+	bash bin/atom_debian_ubuntu_install.sh
 ### Import this Atom packages by cli
 import:
-	apm install --packages-file packages.list
+	apm install --packages-file config/packages.list
 ### Export this Atom packages by cli
 export:
-	apm list --installed --bare > packages.list
+	mkdir config
+	apm list --installed --bare > config/packages.list
 ### Remove ALL packages
 remove:
 	apm remove $(apm list --installed --bare | cut -d'@' -f1)
