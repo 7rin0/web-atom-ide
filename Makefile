@@ -6,7 +6,7 @@ import:
 	apm install --packages-file config/packages.list
 ### Export this Atom packages by cli
 export:
-	mkdir config
+	mkdir -p config
 	apm list --installed --bare > config/packages.list
 ### Remove ALL packages
 remove:
