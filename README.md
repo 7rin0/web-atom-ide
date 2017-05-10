@@ -2,7 +2,7 @@
 Include Majors dependencies, configurations, linters, languages, autocompletes, etc
 
 ### Guide to Debian / Ubuntu installation
-[Atom IDE](https://raw.githubusercontent.com/7rin0/config-atom/master/media/screenshot.png)
+![Atom IDE](https://raw.githubusercontent.com/7rin0/config-atom/master/media/screenshot.png)
 
 #### Install: By getting and pipeline remote script
 - ``wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/remote_atom_debian_ubuntu_install.sh | bash``
