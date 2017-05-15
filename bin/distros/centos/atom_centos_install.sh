@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo ls
+
 # Get
 wget -q https://atom.io/download/rpm -O atom.x86_64.rpm
 

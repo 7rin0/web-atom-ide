@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo ls
+
 # Get
 wget -q --show-progress https://atom.io/download/deb -O atom-amd64.deb
 
