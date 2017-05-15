@@ -20,10 +20,10 @@ Include Majors dependencies, configurations, linters, languages, autocompletes, 
 - ``apm install --packages-file packages.list``
 
 #### Export Atom's dependencies to file
-``apm list --installed --bare > packages.list``
+- ``apm list --installed --bare > packages.list``
 
 #### Remove ALL packages
-``apm remove $(apm list --installed --bare | cut -d'@' -f1)``
+- ``apm remove $(apm list --installed --bare | cut -d'@' -f1)``
 
 #### Update Atom dependencies
 - ``apm upgrade``
