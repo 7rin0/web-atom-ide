@@ -1,4 +1,4 @@
-# Atom App/Web Development - A hackable text editor
+# Atom App/Web Development IDE
 Include Majors dependencies, configurations, linters, languages, autocompletes, etc
 
 ### Guide to Debian / Ubuntu installation
