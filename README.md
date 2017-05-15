@@ -1,4 +1,4 @@
-# Atom App/Web Development IDE
+# Atom App/Web IDE
 Include Majors dependencies, configurations, linters, languages, autocompletes, etc
 
 ### Guide to Debian / Ubuntu installation
