@@ -37,9 +37,6 @@
       "source.python": [
         "BUCK"
       ]
-    disabledPackages: [
-      "tree-view"
-    ]
     telemetryConsent: "no"
     themes: [
       "atom-material-ui"
