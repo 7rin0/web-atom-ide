@@ -4,7 +4,7 @@
 wget -q https://atom.io/download/rpm -O atom.x86_64.rpm
 
 # Install
-sudo yum localinstall atom.x86_64.rpm > /dev/null 2>&1
+sudo yum localinstall -y atom.x86_64.rpm
 
 # Install dependencies
 wget https://raw.githubusercontent.com/7rin0/config-atom/master/config/packages.list
