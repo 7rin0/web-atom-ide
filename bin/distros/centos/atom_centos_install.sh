@@ -1,7 +1,7 @@
 #/bin/bash!
 
 # Get
-wget -q --show-progress https://atom.io/download/rpm -O atom.x86_64.rpm
+wget -qO https://atom.io/download/rpm -O atom.x86_64.rpm
 
 # Install
 sudo yum localinstall atom.x86_64.rpm > /dev/null 2>&1

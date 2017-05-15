@@ -1,7 +1,7 @@
 #/bin/bash!
 
 # Get
-wget -q --show-progress https://atom.io/download/rpm -O atom.x86_64.rpm
+wget -q https://atom.io/download/rpm -O atom.x86_64.rpm
 
 # Install
 sudo dnf install atom.x86_64.rpm > /dev/null 2>&1
