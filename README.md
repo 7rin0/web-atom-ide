@@ -8,8 +8,13 @@ Include Majors dependencies, configurations, linters, languages, autocompletes, 
 - sass
 - phpcs / phpmd
 
+### Get dependencies.
 If you need to install some of this dependencies hust execute the following command:
 - [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/dependencies.sh | bash ```
+
+### Update Atom's config (attention your config will be replaced).
+If you need to install some of this dependencies hust execute the following command:
+- [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/update_atom_config.sh | bash ```
 
 ### Screenshot
 ![Atom IDE](https://raw.githubusercontent.com/7rin0/config-atom/master/media/screenshot.png)
