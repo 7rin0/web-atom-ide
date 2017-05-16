@@ -37,6 +37,9 @@
       "source.python": [
         "BUCK"
       ]
+    disabledPackages: [
+      "Remote-FTP"
+    ]
     telemetryConsent: "no"
     themes: [
       "atom-material-ui"
@@ -70,6 +73,7 @@
       showVerboseBlame: true
     "nuclide-buck": {}
     "nuclide-clang": {}
+    "nuclide-code-format": {}
     "nuclide-console": {}
     "nuclide-datatip": {}
     "nuclide-debugger-native": {}
@@ -85,7 +89,9 @@
     "nuclide-home":
       showHome: false
     "nuclide-ios-simulator-logs": {}
+    "nuclide-notifications": {}
     "nuclide-ocaml": {}
+    "nuclide-outline-view": {}
     "nuclide-python": {}
     "nuclide-react-native": {}
     "nuclide-related-files": {}
@@ -108,6 +114,8 @@
       ]
     "nuclide-swift": {}
   "tool-bar": {}
+  "tree-view":
+    alwaysOpenExisting: true
   welcome:
     showOnStartup: false
 ".blade.html.php.text":

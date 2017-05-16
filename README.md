@@ -1,6 +1,15 @@
 # Atom Web/Apps IDE
 Include Majors dependencies, configurations, linters, languages, autocompletes, etc
 
+### Requirements
+- php
+- git
+- composer
+- sass
+- sass
+If you need to install some of this dependencies hust execute the following command:
+- ``wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/dependencies.sh | bash``
+
 ### Screenshot
 ![Atom IDE](https://raw.githubusercontent.com/7rin0/config-atom/master/media/screenshot.png)
 
@@ -13,7 +22,6 @@ Include Majors dependencies, configurations, linters, languages, autocompletes, 
 
 #### Execute on Ubuntu/Debian
 - ``wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/distros/ubuntu-debian/atom_ubuntu-debian_install.sh | bash``
-
 
 ### APM: Operations/Actions
 #### Import Atom's dependencies from file
