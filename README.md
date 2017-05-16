@@ -7,6 +7,7 @@ Include Majors dependencies, configurations, linters, languages, autocompletes, 
 - composer
 - sass
 - sass
+
 If you need to install some of this dependencies hust execute the following command:
 - [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/dependencies.sh | bash ```
 
