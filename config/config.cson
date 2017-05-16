@@ -38,7 +38,6 @@
         "BUCK"
       ]
     disabledPackages: [
-      "tree-view"
       "Remote-FTP"
       "SFTP-deployment"
     ]
@@ -74,6 +73,7 @@
       showVerboseBlame: true
     "nuclide-buck": {}
     "nuclide-clang": {}
+    "nuclide-code-format": {}
     "nuclide-console": {}
     "nuclide-datatip": {}
     "nuclide-debugger-native": {}
@@ -89,29 +89,17 @@
     "nuclide-home":
       showHome: false
     "nuclide-ios-simulator-logs": {}
+    "nuclide-notifications": {}
     "nuclide-ocaml": {}
+    "nuclide-outline-view": {}
     "nuclide-python": {}
     "nuclide-react-native": {}
     "nuclide-related-files": {}
-    "nuclide-remote-projects":
-      connectionProfiles: [
-        {
-          deletable: true
-          displayTitle: "Ixarm remote - remote tunnel 12224"
-          params:
-            displayTitle: "Ixarm remote - remote tunnel 12224"
-            username: "root"
-            server: "localhost"
-            cwd: "/var/www/html/ixarm_recette"
-            sshPort: "12224"
-            authMethod: "SSL_AGENT"
-            pathToPrivateKey: "/home/l7rin0/.ssh/github-lseverino"
-            remoteServerCommand: ""
-          saveable: true
-        }
-      ]
+    "nuclide-remote-projects": {}
     "nuclide-swift": {}
   "tool-bar": {}
+  "tree-view":
+    alwaysOpenExisting: true
   welcome:
     showOnStartup: false
 ".blade.html.php.text":
