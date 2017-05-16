@@ -8,30 +8,30 @@ Include Majors dependencies, configurations, linters, languages, autocompletes, 
 - sass
 - sass
 If you need to install some of this dependencies hust execute the following command:
-- ``wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/dependencies.sh | bash``
+- [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/dependencies.sh | bash ```
 
 ### Screenshot
 ![Atom IDE](https://raw.githubusercontent.com/7rin0/config-atom/master/media/screenshot.png)
 
 ### Install Atom from CLI
 #### Execute on Centos
-- ``wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/distros/centos/atom_centos_install.sh | bash``
+- [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/distros/centos/atom_centos_install.sh | bash ```
 
 #### Execute on Fedora
-- ``wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/distros/fedora/atom_fedora_install.sh | bash``
+- [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/distros/fedora/atom_fedora_install.sh | bash ```
 
 #### Execute on Ubuntu/Debian
-- ``wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/distros/ubuntu-debian/atom_ubuntu-debian_install.sh | bash``
+- [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/distros/ubuntu-debian/atom_ubuntu-debian_install.sh | bash ```
 
 ### APM: Operations/Actions
 #### Import Atom's dependencies from file
-- ``apm install --packages-file packages.list``
+- [x] ``` apm install --packages-file packages.list ```
 
 #### Export Atom's dependencies to file
-- ``apm list --installed --bare > packages.list``
+- [x] ``` apm list --installed --bare > packages.list ```
 
 #### Remove ALL packages
-- ``apm remove $(apm list --installed --bare | cut -d'@' -f1)``
+- [x] ``` apm remove $(apm list --installed --bare | cut -d'@' -f1) ```
 
 #### Update Atom dependencies
-- ``apm upgrade``
+- [x] ``` apm upgrade ```
