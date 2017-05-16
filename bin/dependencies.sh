@@ -23,6 +23,7 @@ composer global require --prefer-dist --no-interaction squizlabs/php_codesniffer
 
 # Install sass gem
 sudo gem install sass
+sudo gem install scss_lint
 
 
 
