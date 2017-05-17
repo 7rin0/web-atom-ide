@@ -15,11 +15,15 @@
     dateFormat: "HH:mm"
     showClockIcon: true
   "atom-material-ui":
+    colors: {}
+    fonts:
+      fontSize: 14
     tabs:
       compactTabs: true
     treeView:
       compactList: true
     ui:
+      animations: false
       panelContrast: true
   core:
     audioBeep: false
@@ -40,6 +44,11 @@
     disabledPackages: [
       "Remote-FTP"
       "SFTP-deployment"
+      "tree-view"
+      "emmet"
+    ]
+    packagesWithKeymapsDisabled: [
+      "emmet"
     ]
     telemetryConsent: "no"
     themes: [
@@ -60,11 +69,14 @@
   "git-plus":
     general:
       _analyticsUserId: "f19ae23b-9f92-4b2c-9c95-14c9a3170564"
-  linter: {}
+  linter:
+    lintOnChange: false
   "linter-drupalcs":
     ignore: "*.blade.php"
   "linter-phpcs": {}
-  "linter-ui-default": {}
+  "linter-ui-default":
+    showPanel: true
+    showProviderName: true
   nuclide:
     installRecommendedPackages: true
     "nuclide-adb-logcat": {}

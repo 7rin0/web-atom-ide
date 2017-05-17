@@ -22,7 +22,7 @@ emmet@2.4.3
 file-icons@2.1.5
 git-plus@7.8.0
 git-time-machine@1.5.9
-go-plus@5.5.4
+go-plus@5.5.5
 haskell-grammar@0.4.0
 highlight-column@0.5.2
 highlight-line@0.12.0
@@ -51,9 +51,9 @@ linter-phpmd@1.5.3
 linter-pug-lint@0.2.0
 linter-scss-lint@3.1.0
 linter-ui-default@1.2.4
-merge-conflicts@1.4.4
+merge-conflicts@1.4.5
 node-debugger@1.10.1
-nuclide@0.223.0
+nuclide@0.226.0
 nuclide-format-js@0.0.36
 open-recent@5.0.0
 pdf-view@0.58.0
