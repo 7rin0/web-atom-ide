@@ -29,7 +29,7 @@ You can get the main required dependencies by executing the following command:
 - [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/update_atom_config.sh | bash ```
 
 #### Update Atom packages
-- [x] ``` apm upgrade `
+- [x] ``` apm upgrade ```
 
 
 ### APM: Operations/Actions
@@ -40,4 +40,4 @@ You can get the main required dependencies by executing the following command:
 - [x] ``` apm list --installed --bare > packages.list ```
 
 #### Remove ALL packages
-- [x] ``` apm remove $(apm list --installed --bare | cut -d'@' -f1) `````
+- [x] ``` apm remove $(apm list --installed --bare | cut -d'@' -f1) ```
