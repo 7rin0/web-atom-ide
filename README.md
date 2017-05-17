@@ -1,33 +1,36 @@
 # Atom Web/Apps IDE
-Include Majors dependencies, configurations, linters, languages, autocompletes, etc
+Include main dependencies, configurations, linters, languages, autocompletes, etc. An Atom oriented for Web Development.
 
 ### Requirements
-- php
 - git
 - composer
-- sass
-- phpcs / phpmd
+- sass (only for sass development)
+- phpcs / phpmd (only for php development)
 
-### Get dependencies.
-If you need to install some of this dependencies hust execute the following command:
+### Get dependencies
+You can get the main required dependencies by executing the following command:
 - [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/dependencies.sh | bash ```
-
-### Update Atom's config (attention your config will be replaced).
-If you need to install some of this dependencies hust execute the following command:
-- [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/update_atom_config.sh | bash ```
 
 ### Screenshot
 ![Atom IDE](https://raw.githubusercontent.com/7rin0/config-atom/master/media/screenshot.png)
 
-### Install Atom from CLI
-#### Execute on Centos
+### Installation
+#### Install on Centos
 - [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/distros/centos/atom_centos_install.sh | bash ```
 
-#### Execute on Fedora
+#### Install on Fedora
 - [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/distros/fedora/atom_fedora_install.sh | bash ```
 
-#### Execute on Ubuntu/Debian
+#### Install on Ubuntu/Debian
 - [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/distros/ubuntu-debian/atom_ubuntu-debian_install.sh | bash ```
+
+### Update Atom
+#### Update config (attention, your config will be replaced).
+- [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/update_atom_config.sh | bash ```
+
+#### Update Atom packages
+- [x] ``` apm upgrade `
+
 
 ### APM: Operations/Actions
 #### Import Atom's dependencies from file
@@ -37,7 +40,4 @@ If you need to install some of this dependencies hust execute the following comm
 - [x] ``` apm list --installed --bare > packages.list ```
 
 #### Remove ALL packages
-- [x] ``` apm remove $(apm list --installed --bare | cut -d'@' -f1) ```
-
-#### Update Atom dependencies
-- [x] ``` apm upgrade ```
+- [x] ``` apm remove $(apm list --installed --bare | cut -d'@' -f1) `````
