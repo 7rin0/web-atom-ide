@@ -1,6 +1,9 @@
 # Atom Web/Apps IDE
 Include main dependencies, configurations, linters, languages, autocompletes, etc. An Atom oriented for Web Development.
 
+### Screenshot
+![Atom IDE](https://raw.githubusercontent.com/7rin0/config-atom/master/media/screenshot.png)
+
 ### Requirements
 - git
 - composer
@@ -10,9 +13,6 @@ Include main dependencies, configurations, linters, languages, autocompletes, et
 ### Get dependencies
 You can get the main required dependencies by executing the following command:
 - [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/dependencies.sh | bash ```
-
-### Screenshot
-![Atom IDE](https://raw.githubusercontent.com/7rin0/config-atom/master/media/screenshot.png)
 
 ### Installation
 #### Install on Centos
