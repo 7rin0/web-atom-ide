@@ -8,9 +8,9 @@
   "atom-beautify":
     general:
       _analyticsUserId: "0755f520-3830-4ecc-8d2e-d4f92e7c1ae7"
+      muteUnsupportedLanguageErrors: true
     php:
       default_beautifier: "PHPCBF"
-      standard: "DRUPAL"
   "atom-clock":
     dateFormat: "HH:mm"
     showClockIcon: true
@@ -20,11 +20,13 @@
       fontSize: 14
     tabs:
       compactTabs: true
+      noTabMinWidth: true
     treeView:
       compactList: true
     ui:
       animations: false
       panelContrast: true
+      useAnimations: false
   core:
     audioBeep: false
     automaticallyUpdate: false
@@ -56,12 +58,12 @@
       "one-dark-syntax"
     ]
   editor:
+    fontSize: 15
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
     softWrapAtPreferredLineLength: true
     useShadowDOM: false
-    zoomFontWhenCtrlScrolling: false
   "exception-reporting":
     userId: "40c359a1-9aff-6c3a-8790-bda6069f867f"
   "file-watcher":
@@ -75,14 +77,16 @@
     ignore: "*.blade.php"
   "linter-phpcs": {}
   "linter-ui-default":
+    showDecorations: false
     showPanel: true
     showProviderName: true
   nuclide:
-    installRecommendedPackages: true
     "nuclide-adb-logcat": {}
     "nuclide-arcanist": {}
     "nuclide-blame-provider-hg":
       showVerboseBlame: true
+    "nuclide-bookshelf":
+      changeActiveBookmarkBehavior: "Always Restore"
     "nuclide-buck": {}
     "nuclide-clang": {}
     "nuclide-code-format": {}
@@ -90,11 +94,15 @@
     "nuclide-datatip": {}
     "nuclide-debugger-native": {}
     "nuclide-debugger-node": {}
-    "nuclide-debugger-php": {}
+    "nuclide-debugger-php":
+      phpRuntimePath: "/usr/bin/php"
     "nuclide-definition-preview": {}
     "nuclide-file-tree":
       revealFileOnSwitch: true
-    "nuclide-flow": {}
+    "nuclide-flow":
+      canUseFlowBin: true
+      enableTypeHints: false
+      excludeOtherAutocomplete: true
     "nuclide-hack": {}
     "nuclide-health":
       toolbarJewel: "Memory"
@@ -105,6 +113,8 @@
     "nuclide-ocaml": {}
     "nuclide-outline-view": {}
     "nuclide-python": {}
+    "nuclide-quick-open":
+      useSelection: false
     "nuclide-react-native": {}
     "nuclide-related-files": {}
     "nuclide-remote-projects": {}
