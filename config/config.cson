@@ -48,9 +48,15 @@
       "SFTP-deployment"
       "tree-view"
       "emmet"
+      "php-debug"
+      "go-plus"
     ]
     packagesWithKeymapsDisabled: [
       "emmet"
+      "tool-bar"
+      "php-debug"
+      "atom-commander"
+      "nuclide-debugger"
     ]
     telemetryConsent: "no"
     themes: [
@@ -66,6 +72,7 @@
     useShadowDOM: false
   "exception-reporting":
     userId: "40c359a1-9aff-6c3a-8790-bda6069f867f"
+  "file-icons": {}
   "file-watcher":
     promptWhenFileHasChangedOnDisk: false
   "git-plus":
@@ -84,29 +91,39 @@
     "nuclide-adb-logcat": {}
     "nuclide-arcanist": {}
     "nuclide-blame-provider-hg":
-      showVerboseBlame: true
-    "nuclide-bookshelf":
-      changeActiveBookmarkBehavior: "Always Restore"
+      showVerboseBlame: false
+    "nuclide-bookshelf": {}
     "nuclide-buck": {}
     "nuclide-clang": {}
     "nuclide-code-format": {}
-    "nuclide-console": {}
+    "nuclide-console":
+      maximumMessageCount: 1000
+    "nuclide-ctags":
+      disableWithHack: false
     "nuclide-datatip": {}
-    "nuclide-debugger-native": {}
-    "nuclide-debugger-node": {}
+    "nuclide-debugger-native":
+      clientLogLevel: "OFF"
+      serverLogLevel: "OFF"
+    "nuclide-debugger-node":
+      clientLogLevel: "OFF"
+      serverLogLevel: "OFF"
     "nuclide-debugger-php":
+      logLevel: "OFF"
       phpRuntimePath: "/usr/bin/php"
     "nuclide-definition-preview": {}
     "nuclide-file-tree":
+      hideIgnoredNames: false
       revealFileOnSwitch: true
     "nuclide-flow":
-      canUseFlowBin: true
       enableTypeHints: false
       excludeOtherAutocomplete: true
     "nuclide-hack": {}
     "nuclide-health":
       toolbarJewel: "Memory"
+    "nuclide-hg-repository":
+      enableDiffStats: true
     "nuclide-home":
+      showChangelogs: false
       showHome: false
     "nuclide-ios-simulator-logs": {}
     "nuclide-notifications": {}
@@ -119,11 +136,17 @@
     "nuclide-related-files": {}
     "nuclide-remote-projects": {}
     "nuclide-swift": {}
+    "nuclide-type-coverage": {}
+  "php-debug":
+    GutterBreakpointToggle: false
   "tool-bar": {}
   "tree-view":
     alwaysOpenExisting: true
   welcome:
     showOnStartup: false
+".ansi.text":
+  editor:
+    autoIndent: true
 ".blade.html.php.text":
   editor:
     commentEnd: " --}}"
