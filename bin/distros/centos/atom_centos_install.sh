@@ -9,15 +9,15 @@ wget -q https://atom.io/download/rpm -O atom.x86_64.rpm
 sudo yum localinstall -y atom.x86_64.rpm
 
 # Install dependencies
-wget https://raw.githubusercontent.com/7rin0/config-atom/master/config/packages.list
+wget https://raw.githubusercontent.com/7rin0/web-atom-ide/master/config/packages.list
 apm install --packages-file packages.list
 
 # Config
-wget https://raw.githubusercontent.com/7rin0/config-atom/master/config/config.cson
+wget https://raw.githubusercontent.com/7rin0/web-atom-ide/master/config/config.cson
 cp config.cson ~/.atom
 
 # Styles
-wget https://raw.githubusercontent.com/7rin0/config-atom/master/config/styles.less
+wget https://raw.githubusercontent.com/7rin0/web-atom-ide/master/config/styles.less
 cp styles.less ~/.atom
 
 # Remove temporary files

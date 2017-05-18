@@ -2,7 +2,7 @@
 Include main dependencies, configurations, linters, languages, autocompletes, etc. An Atom oriented for Web Development.
 
 ### Screenshot
-![Atom IDE](https://raw.githubusercontent.com/7rin0/config-atom/master/media/screenshot.png)
+![Atom IDE](https://raw.githubusercontent.com/7rin0/web-atom-ide/master/media/screenshot.png)
 
 ### Requirements
 - git
@@ -12,21 +12,21 @@ Include main dependencies, configurations, linters, languages, autocompletes, et
 
 ### Get dependencies
 You can get the main required dependencies by executing the following command:
-- [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/dependencies.sh | bash ```
+- [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/web-atom-ide/master/bin/dependencies.sh | bash ```
 
 ### Installation
 #### Install on Centos
-- [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/distros/centos/atom_centos_install.sh | bash ```
+- [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/web-atom-ide/master/bin/distros/centos/atom_centos_install.sh | bash ```
 
 #### Install on Fedora
-- [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/distros/fedora/atom_fedora_install.sh | bash ```
+- [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/web-atom-ide/master/bin/distros/fedora/atom_fedora_install.sh | bash ```
 
 #### Install on Ubuntu/Debian
-- [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/distros/ubuntu-debian/atom_ubuntu-debian_install.sh | bash ```
+- [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/web-atom-ide/master/bin/distros/ubuntu-debian/atom_ubuntu-debian_install.sh | bash ```
 
 ### Update Atom
 #### Update config (attention, your config will be replaced).
-- [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/config-atom/master/bin/update_atom_config.sh | bash ```
+- [x] ``` wget -qO- https://raw.githubusercontent.com/7rin0/web-atom-ide/master/bin/update_atom_config.sh | bash ```
 
 #### Update Atom packages
 - [x] ``` apm upgrade ```
