@@ -51,6 +51,7 @@
       "php-debug"
       "go-plus"
       "linter-pug-lint"
+      "node-debugger"
     ]
     packagesWithKeymapsDisabled: [
       "emmet"
