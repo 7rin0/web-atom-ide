@@ -5,7 +5,6 @@ SFTP-deployment@1.0.2
 atom-autocomplete-php@0.22.2
 atom-beautify@0.29.24
 atom-clock@0.1.7
-atom-commander@0.9.0
 atom-material-syntax@1.0.6
 atom-material-ui@2.0.3
 atom-ternjs@0.18.3
