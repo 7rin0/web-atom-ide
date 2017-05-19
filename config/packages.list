@@ -16,11 +16,11 @@ behat-atom@0.1.2
 behat-fr-atom@0.2.1
 busy-signal@1.4.1
 color-picker@2.2.5
-docblockr@0.9.4
+docblockr@0.10.0
 eclipse-keybindings@0.9.0
 emmet@2.4.3
 file-icons@2.1.6
-git-plus@7.8.0
+git-plus@7.9.1
 git-time-machine@1.5.9
 go-plus@5.5.5
 haskell-grammar@0.4.0
@@ -53,7 +53,7 @@ linter-scss-lint@3.1.0
 linter-ui-default@1.5.4
 merge-conflicts@1.4.5
 node-debugger@1.10.1
-nuclide@0.226.0
+nuclide@0.228.0
 nuclide-format-js@0.0.36
 open-recent@5.0.0
 pdf-view@0.58.0
