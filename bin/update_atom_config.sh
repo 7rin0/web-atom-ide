@@ -15,4 +15,4 @@ apm remove atom-commander
 apm remove terminal-plus
 
 # Remove temporary files
-rm -rf config.cson
+rm -rf config.cson styles.less
