@@ -50,6 +50,7 @@
       "emmet"
       "php-debug"
       "go-plus"
+      "linter-pug-lint"
     ]
     packagesWithKeymapsDisabled: [
       "emmet"
@@ -57,6 +58,8 @@
       "php-debug"
       "atom-commander"
       "nuclide-debugger"
+      "node-debugger"
+      "atom-autocomplete-php"
     ]
     telemetryConsent: "no"
     themes: [
